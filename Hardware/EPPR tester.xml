@@ -1,0 +1,2940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\molnart1\Desktop\Vezérlő projekt\EPPR tester\EPPR tester\EPPR tester.kicad_sch</source>
+    <date>2026. 03. 27. 14:00:19</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>EPPR tester.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_v3.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v3.x" description="Arduino Nano v3.x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Arduino Nano v3.x"/>
+      <property name="ki_keywords" value="Arduino nano microcontroller module USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c822fde1-5bd6-43b4-982e-1dfc7441d54e</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef992e14-6110-4f57-9eda-81aed9047283</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0f01fe3-dc1e-4e25-a12b-1798b96e51f9</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>505e2074-aea9-4e55-8f10-f36055a54280</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f7b54cb-876f-4d2a-832f-ae02652ad1df</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e06c35a-229b-4052-86a1-d70543a31285</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58bea168-98c5-47a6-86c9-08c72cea1c76</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4276ef48-dccf-40c7-aa67-07ffd7db9c30</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>503dee4e-9f31-4f94-aa0a-6a5caf5c9a3d</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>793cc91c-e70c-47db-8e5f-59a2f4fa9a25</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2bfd5ec-8ef3-4e42-8335-eeb5533989e7</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BZT52C10</value>
+      <footprint>Diode_SMD:Nexperia_CFP3_SOD-123W</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76fad376-3395-41f6-8527-a1da24292ccb</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.tme.eu/Document/8a0f4bd1d0e0495ebb1834ba060fbfa0/CD4148.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">DC COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">CD4148WT(0603C)</field>
+        <field name="Package">0603</field>
+        <field name="SMD/THT">SMD</field>
+        <field name="Third Party Seller 1">https://www.tme.eu/hu/details/1n4148-0603/univerzalis-smd-diodak/dc-components/cd4148wt-0603c/</field>
+        <field name="Website">-</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="SMD/THT" value="SMD"/>
+      <property name="Package" value="0603"/>
+      <property name="Manufacturer_Name" value="DC COMPONENTS"/>
+      <property name="Manufacturer_Part_Number" value="CD4148WT(0603C)"/>
+      <property name="Website" value="-"/>
+      <property name="Third Party Seller 1" value="https://www.tme.eu/hu/details/1n4148-0603/univerzalis-smd-diodak/dc-components/cd4148wt-0603c/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fac8999-81bd-40f8-a0b6-7ac9e020d7b5</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.tme.eu/Document/8a0f4bd1d0e0495ebb1834ba060fbfa0/CD4148.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">DC COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">CD4148WT(0603C)</field>
+        <field name="Package">0603</field>
+        <field name="SMD/THT">SMD</field>
+        <field name="Third Party Seller 1">https://www.tme.eu/hu/details/1n4148-0603/univerzalis-smd-diodak/dc-components/cd4148wt-0603c/</field>
+        <field name="Website">-</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="SMD/THT" value="SMD"/>
+      <property name="Package" value="0603"/>
+      <property name="Manufacturer_Name" value="DC COMPONENTS"/>
+      <property name="Manufacturer_Part_Number" value="CD4148WT(0603C)"/>
+      <property name="Website" value="-"/>
+      <property name="Third Party Seller 1" value="https://www.tme.eu/hu/details/1n4148-0603/univerzalis-smd-diodak/dc-components/cd4148wt-0603c/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ff7646a-e349-42cc-ae5b-c64dac7b956a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.tme.eu/Document/8a0f4bd1d0e0495ebb1834ba060fbfa0/CD4148.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">DC COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">CD4148WT(0603C)</field>
+        <field name="Package">0603</field>
+        <field name="SMD/THT">SMD</field>
+        <field name="Third Party Seller 1">https://www.tme.eu/hu/details/1n4148-0603/univerzalis-smd-diodak/dc-components/cd4148wt-0603c/</field>
+        <field name="Website">-</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="SMD/THT" value="SMD"/>
+      <property name="Package" value="0603"/>
+      <property name="Manufacturer_Name" value="DC COMPONENTS"/>
+      <property name="Manufacturer_Part_Number" value="CD4148WT(0603C)"/>
+      <property name="Website" value="-"/>
+      <property name="Third Party Seller 1" value="https://www.tme.eu/hu/details/1n4148-0603/univerzalis-smd-diodak/dc-components/cd4148wt-0603c/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e13c91e1-89e9-4922-bece-9ad0dc278e78</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.tme.eu/Document/8a0f4bd1d0e0495ebb1834ba060fbfa0/CD4148.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">DC COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">CD4148WT(0603C)</field>
+        <field name="Package">0603</field>
+        <field name="SMD/THT">SMD</field>
+        <field name="Third Party Seller 1">https://www.tme.eu/hu/details/1n4148-0603/univerzalis-smd-diodak/dc-components/cd4148wt-0603c/</field>
+        <field name="Website">-</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="SMD/THT" value="SMD"/>
+      <property name="Package" value="0603"/>
+      <property name="Manufacturer_Name" value="DC COMPONENTS"/>
+      <property name="Manufacturer_Part_Number" value="CD4148WT(0603C)"/>
+      <property name="Website" value="-"/>
+      <property name="Third Party Seller 1" value="https://www.tme.eu/hu/details/1n4148-0603/univerzalis-smd-diodak/dc-components/cd4148wt-0603c/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83ab9b76-0295-4b64-9fad-4045291e7b5c</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.tme.eu/Document/8a0f4bd1d0e0495ebb1834ba060fbfa0/CD4148.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">DC COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">CD4148WT(0603C)</field>
+        <field name="Package">0603</field>
+        <field name="SMD/THT">SMD</field>
+        <field name="Third Party Seller 1">https://www.tme.eu/hu/details/1n4148-0603/univerzalis-smd-diodak/dc-components/cd4148wt-0603c/</field>
+        <field name="Website">-</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="SMD/THT" value="SMD"/>
+      <property name="Package" value="0603"/>
+      <property name="Manufacturer_Name" value="DC COMPONENTS"/>
+      <property name="Manufacturer_Part_Number" value="CD4148WT(0603C)"/>
+      <property name="Website" value="-"/>
+      <property name="Third Party Seller 1" value="https://www.tme.eu/hu/details/1n4148-0603/univerzalis-smd-diodak/dc-components/cd4148wt-0603c/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11e8fd45-dc91-42f9-9a44-77a4f6bf2c8b</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.tme.eu/Document/8a0f4bd1d0e0495ebb1834ba060fbfa0/CD4148.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">DC COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">CD4148WT(0603C)</field>
+        <field name="Package">0603</field>
+        <field name="SMD/THT">SMD</field>
+        <field name="Third Party Seller 1">https://www.tme.eu/hu/details/1n4148-0603/univerzalis-smd-diodak/dc-components/cd4148wt-0603c/</field>
+        <field name="Website">-</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="SMD/THT" value="SMD"/>
+      <property name="Package" value="0603"/>
+      <property name="Manufacturer_Name" value="DC COMPONENTS"/>
+      <property name="Manufacturer_Part_Number" value="CD4148WT(0603C)"/>
+      <property name="Website" value="-"/>
+      <property name="Third Party Seller 1" value="https://www.tme.eu/hu/details/1n4148-0603/univerzalis-smd-diodak/dc-components/cd4148wt-0603c/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c01d7e25-2ca4-4638-9153-3f2b4d051c1d</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>BZT52C6V8</value>
+      <footprint>Diode_SMD:Nexperia_CFP3_SOD-123W</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a65cad3f-5254-4664-81cf-43f58f3e213e</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>BZT52C6V8</value>
+      <footprint>Diode_SMD:Nexperia_CFP3_SOD-123W</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5631975-2755-426a-b914-b73d9844630b</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>BZT52C10</value>
+      <footprint>Diode_SMD:Nexperia_CFP3_SOD-123W</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb7868ce-45f2-4555-9b35-db7a3f61903d</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>BZT52C10</value>
+      <footprint>Diode_SMD:Nexperia_CFP3_SOD-123W</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13868dca-6e32-4e1b-89f4-0c05618f4441</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>15A</value>
+      <footprint>Fuse:Fuseholder_Littelfuse_100_series_5x20mm</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f27709f-de7e-40eb-93e7-aac0e610abe6</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Battery terminal</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6810ef35-a121-4052-998d-951df2ad364f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Start button conector</value>
+      <footprint>B2B-XH-A:JST_B2B-XH-A</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Connector Header Through Hole 2 position 0.098 (2.50mm)
+                        
+</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7 mm</field>
+        <field name="MF">JST Sales</field>
+        <field name="MP">B2B-XH-A</field>
+        <field name="PARTREV">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="B2B-XH-A" part="B2B-XH-A" description=""/>
+      <property name="MF" value="JST Sales"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap"/>
+      <property name="MP" value="B2B-XH-A"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Connector Header Through Hole 2 position 0.098 (2.50mm)&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="JST Sales America Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abafa38e-5f20-4c7a-bf7c-0a22012eaade</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>EPPR Valve 1</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d500a71-3fa5-40d2-8464-3c81d4893998</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>EPPR Valve 2</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d259bde2-d3b0-4afd-8e76-fd2302766abb</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>B4B-XH-A_LF__SN_</value>
+      <footprint>B4B-XH-A:JST_B4B-XH-A_LF__SN_</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B4B-XH-A%20(LF)(SN)/JST/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Connector Header Through Hole 4 position 0.098 (2.50mm)
+                        
+</field>
+        <field name="MANUFACTURER">JST</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.00 mm</field>
+        <field name="MF">JST Sales</field>
+        <field name="MP">B4B-XH-A (LF)(SN)</field>
+        <field name="PARTREV">7/4/21</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B4B-XH-A%20(LF)(SN)/JST/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="B4B-XH-A_LF__SN_" part="B4B-XH-A_LF__SN_" description=""/>
+      <property name="MF" value="JST Sales"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7.00 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/B4B-XH-A%20(LF)(SN)/JST/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="7/4/21"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/B4B-XH-A%20(LF)(SN)/JST/view-part/?ref=snap"/>
+      <property name="MP" value="B4B-XH-A (LF)(SN)"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Connector Header Through Hole 4 position 0.098 (2.50mm)&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="JST"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fbfc634-9366-475e-95cd-2c92d7933a7a</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Go right button conector</value>
+      <footprint>B2B-XH-A:JST_B2B-XH-A</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Connector Header Through Hole 2 position 0.098 (2.50mm)
+                        
+</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7 mm</field>
+        <field name="MF">JST Sales</field>
+        <field name="MP">B2B-XH-A</field>
+        <field name="PARTREV">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="B2B-XH-A" part="B2B-XH-A" description=""/>
+      <property name="MF" value="JST Sales"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap"/>
+      <property name="MP" value="B2B-XH-A"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Connector Header Through Hole 2 position 0.098 (2.50mm)&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="JST Sales America Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a5d53be-3bdf-41d8-abbf-86c957fde032</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Go left button conector</value>
+      <footprint>B2B-XH-A:JST_B2B-XH-A</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Connector Header Through Hole 2 position 0.098 (2.50mm)
+                        
+</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7 mm</field>
+        <field name="MF">JST Sales</field>
+        <field name="MP">B2B-XH-A</field>
+        <field name="PARTREV">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="B2B-XH-A" part="B2B-XH-A" description=""/>
+      <property name="MF" value="JST Sales"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap"/>
+      <property name="MP" value="B2B-XH-A"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Connector Header Through Hole 2 position 0.098 (2.50mm)&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="JST Sales America Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5497d08c-b891-47dd-85e4-accf6abc7bbd</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Pwm set up</value>
+      <footprint>B3B-XH-A:JST_B3B-XH-A</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B3B-XH-A/JST/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Connector Header Through Hole 3 position 0.098 (2.50mm)
+                        
+</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.00 mm</field>
+        <field name="MF">JST Sales</field>
+        <field name="MP">B3B-XH-A</field>
+        <field name="PARTREV">7/4/21</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B3B-XH-A/JST/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="B3B-XH-A" part="B3B-XH-A" description=""/>
+      <property name="MF" value="JST Sales"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7.00 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/B3B-XH-A/JST/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="7/4/21"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/B3B-XH-A/JST/view-part/?ref=snap"/>
+      <property name="MP" value="B3B-XH-A"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Connector Header Through Hole 3 position 0.098 (2.50mm)&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="JST Sales America Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc96b373-4638-459f-ba1f-956bc99b09ab</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0cd0abbb-8a9a-431a-81d5-71544a9e6878</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5aedcc6e-5238-4ac3-8120-1c61e907a600</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>R LED conector</value>
+      <footprint>B2B-XH-A:JST_B2B-XH-A</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Connector Header Through Hole 2 position 0.098 (2.50mm)
+                        
+</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7 mm</field>
+        <field name="MF">JST Sales</field>
+        <field name="MP">B2B-XH-A</field>
+        <field name="PARTREV">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="B2B-XH-A" part="B2B-XH-A" description=""/>
+      <property name="MF" value="JST Sales"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap"/>
+      <property name="MP" value="B2B-XH-A"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Connector Header Through Hole 2 position 0.098 (2.50mm)&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="JST Sales America Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d4fa006-713a-4e2c-a314-2cdf9e80d939</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>G. LED conector</value>
+      <footprint>B2B-XH-A:JST_B2B-XH-A</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Connector Header Through Hole 2 position 0.098 (2.50mm)
+                        
+</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7 mm</field>
+        <field name="MF">JST Sales</field>
+        <field name="MP">B2B-XH-A</field>
+        <field name="PARTREV">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="B2B-XH-A" part="B2B-XH-A" description=""/>
+      <property name="MF" value="JST Sales"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap"/>
+      <property name="MP" value="B2B-XH-A"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Connector Header Through Hole 2 position 0.098 (2.50mm)&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="JST Sales America Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e6a8ed9-feac-4224-a48c-d5a3b6c1c649</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>R. LED conector</value>
+      <footprint>B2B-XH-A:JST_B2B-XH-A</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Connector Header Through Hole 2 position 0.098 (2.50mm)
+                        
+</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7 mm</field>
+        <field name="MF">JST Sales</field>
+        <field name="MP">B2B-XH-A</field>
+        <field name="PARTREV">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="B2B-XH-A" part="B2B-XH-A" description=""/>
+      <property name="MF" value="JST Sales"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap"/>
+      <property name="MP" value="B2B-XH-A"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Connector Header Through Hole 2 position 0.098 (2.50mm)&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="JST Sales America Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81741834-efff-447d-a4fc-351cbef47a97</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>G. LED conector</value>
+      <footprint>B2B-XH-A:JST_B2B-XH-A</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Connector Header Through Hole 2 position 0.098 (2.50mm)
+                        
+</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7 mm</field>
+        <field name="MF">JST Sales</field>
+        <field name="MP">B2B-XH-A</field>
+        <field name="PARTREV">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="B2B-XH-A" part="B2B-XH-A" description=""/>
+      <property name="MF" value="JST Sales"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap"/>
+      <property name="MP" value="B2B-XH-A"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Connector Header Through Hole 2 position 0.098 (2.50mm)&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="JST Sales America Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42ec9e04-c374-48cf-bc74-134f90ee2f63</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>R. LED conector</value>
+      <footprint>B2B-XH-A:JST_B2B-XH-A</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            Connector Header Through Hole 2 position 0.098 (2.50mm)
+                        
+</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7 mm</field>
+        <field name="MF">JST Sales</field>
+        <field name="MP">B2B-XH-A</field>
+        <field name="PARTREV">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="B2B-XH-A" part="B2B-XH-A" description=""/>
+      <property name="MF" value="JST Sales"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap"/>
+      <property name="MP" value="B2B-XH-A"/>
+      <property name="Description" value="&#xA;                        &#xA;                            Connector Header Through Hole 2 position 0.098 (2.50mm)&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="JST Sales America Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8404f44e-3126-4c26-80be-d3d0919b37df</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a2aa1aa-c29b-4484-8d97-6e306220f2d9</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>SRD-05VDC-SL-C</value>
+      <footprint>SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi
+                        
+</field>
+        <field name="MANUFACTURER">SONGLE RELAY</field>
+        <field name="MF">Songle Relay</field>
+        <field name="MP">SRD-05VDC-SL-C</field>
+        <field name="Package">NON STANDARD-5 Songle Relay</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">IPC-7251</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="SRD-05VDC-SL-C" part="SRD-05VDC-SL-C" description=""/>
+      <property name="MF" value="Songle Relay"/>
+      <property name="Description" value="&#xA;                        &#xA;                            5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi&#xA;                        &#xA;"/>
+      <property name="Package" value="NON STANDARD-5 Songle Relay"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7251"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"/>
+      <property name="MP" value="SRD-05VDC-SL-C"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="SONGLE RELAY"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bad0a771-76db-45bb-8017-f52b50e79391</tstamps>
+    </comp>
+    <comp ref="K3">
+      <value>SRD-05VDC-SL-C</value>
+      <footprint>SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi
+                        
+</field>
+        <field name="MANUFACTURER">SONGLE RELAY</field>
+        <field name="MF">Songle Relay</field>
+        <field name="MP">SRD-05VDC-SL-C</field>
+        <field name="Package">NON STANDARD-5 Songle Relay</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">IPC-7251</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="SRD-05VDC-SL-C" part="SRD-05VDC-SL-C" description=""/>
+      <property name="MF" value="Songle Relay"/>
+      <property name="Description" value="&#xA;                        &#xA;                            5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi&#xA;                        &#xA;"/>
+      <property name="Package" value="NON STANDARD-5 Songle Relay"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7251"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"/>
+      <property name="MP" value="SRD-05VDC-SL-C"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="SONGLE RELAY"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad37c40c-2e18-47b7-b25b-e685422183ea</tstamps>
+    </comp>
+    <comp ref="K4">
+      <value>SRD-05VDC-SL-C</value>
+      <footprint>SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi
+                        
+</field>
+        <field name="MANUFACTURER">SONGLE RELAY</field>
+        <field name="MF">Songle Relay</field>
+        <field name="MP">SRD-05VDC-SL-C</field>
+        <field name="Package">NON STANDARD-5 Songle Relay</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">IPC-7251</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="" part="SRD-05VDC-SL-C_1" description=""/>
+      <property name="MF" value="Songle Relay"/>
+      <property name="Description" value="&#xA;                        &#xA;                            5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi&#xA;                        &#xA;"/>
+      <property name="Package" value="NON STANDARD-5 Songle Relay"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7251"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"/>
+      <property name="MP" value="SRD-05VDC-SL-C"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="SONGLE RELAY"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0802b410-6b6a-40d2-9f11-fadb93ba1669</tstamps>
+    </comp>
+    <comp ref="K5">
+      <value>SRD-05VDC-SL-C</value>
+      <footprint>SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi
+                        
+</field>
+        <field name="MANUFACTURER">SONGLE RELAY</field>
+        <field name="MF">Songle Relay</field>
+        <field name="MP">SRD-05VDC-SL-C</field>
+        <field name="Package">NON STANDARD-5 Songle Relay</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">IPC-7251</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="" part="SRD-05VDC-SL-C_2" description=""/>
+      <property name="MF" value="Songle Relay"/>
+      <property name="Description" value="&#xA;                        &#xA;                            5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi&#xA;                        &#xA;"/>
+      <property name="Package" value="NON STANDARD-5 Songle Relay"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7251"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"/>
+      <property name="MP" value="SRD-05VDC-SL-C"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="SONGLE RELAY"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8662d01d-955f-4a5e-8c68-771c4361eb6e</tstamps>
+    </comp>
+    <comp ref="K6">
+      <value>SRD-05VDC-SL-C</value>
+      <footprint>SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi
+                        
+</field>
+        <field name="MANUFACTURER">SONGLE RELAY</field>
+        <field name="MF">Songle Relay</field>
+        <field name="MP">SRD-05VDC-SL-C</field>
+        <field name="Package">NON STANDARD-5 Songle Relay</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">IPC-7251</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="SRD-05VDC-SL-C" part="SRD-05VDC-SL-C" description=""/>
+      <property name="MF" value="Songle Relay"/>
+      <property name="Description" value="&#xA;                        &#xA;                            5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi&#xA;                        &#xA;"/>
+      <property name="Package" value="NON STANDARD-5 Songle Relay"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7251"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap"/>
+      <property name="MP" value="SRD-05VDC-SL-C"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="SONGLE RELAY"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9ad91e1-fad7-4338-b09f-442ace905db7</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>MMZ2012Y152BT</value>
+      <footprint>MMZ2012Y152B:INDC2012X87N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MMZ2012Y152B/TDK/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            1.5 kOhms @ 100 MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 500mA 400mOhm
+                        
+</field>
+        <field name="MF">TDK</field>
+        <field name="MP">MMZ2012Y152B</field>
+        <field name="Package">0805 TDK</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MMZ2012Y152B/TDK/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="MMZ2012Y152BT" part="MMZ2012Y152BT" description=""/>
+      <property name="MF" value="TDK"/>
+      <property name="Description" value="&#xA;                        &#xA;                            1.5 kOhms @ 100 MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 500mA 400mOhm&#xA;                        &#xA;"/>
+      <property name="Package" value="0805 TDK"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MMZ2012Y152B/TDK/view-part/?ref=snap"/>
+      <property name="MP" value="MMZ2012Y152B"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/MMZ2012Y152B/TDK/view-part/?ref=eda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>570d7fe5-6a57-46de-ad6a-5756acab5e42</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>MMZ2012Y152BT</value>
+      <footprint>MMZ2012Y152B:INDC2012X87N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MMZ2012Y152B/TDK/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            1.5 kOhms @ 100 MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 500mA 400mOhm
+                        
+</field>
+        <field name="MF">TDK</field>
+        <field name="MP">MMZ2012Y152B</field>
+        <field name="Package">0805 TDK</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MMZ2012Y152B/TDK/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="MMZ2012Y152BT" part="MMZ2012Y152BT" description=""/>
+      <property name="MF" value="TDK"/>
+      <property name="Description" value="&#xA;                        &#xA;                            1.5 kOhms @ 100 MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 500mA 400mOhm&#xA;                        &#xA;"/>
+      <property name="Package" value="0805 TDK"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MMZ2012Y152B/TDK/view-part/?ref=snap"/>
+      <property name="MP" value="MMZ2012Y152B"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/MMZ2012Y152B/TDK/view-part/?ref=eda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf42b7a9-fcb6-4882-b9e1-8dbc710bf41d</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>MC00100</value>
+      <footprint>MC00100:CONV_MC00100</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="CREATOR">ASHISH</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MC00100/YKS/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            DC-DC LM2596 Step Down Adjustable Converter Power Supply Module 1.3V-35V
+                        
+</field>
+        <field name="MANUFACTURER">YKS</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">14.00mm</field>
+        <field name="MF">YKS</field>
+        <field name="MP">MC00100</field>
+        <field name="PARTREV">NA</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MC00100/YKS/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="MC00100" part="MC00100" description=""/>
+      <property name="MF" value="YKS"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="14.00mm"/>
+      <property name="CREATOR" value="ASHISH"/>
+      <property name="Price" value="None"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/MC00100/YKS/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="NA"/>
+      <property name="VERIFIER" value=""/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MC00100/YKS/view-part/?ref=snap"/>
+      <property name="MP" value="MC00100"/>
+      <property name="Description" value="&#xA;                        &#xA;                            DC-DC LM2596 Step Down Adjustable Converter Power Supply Module 1.3V-35V&#xA;                        &#xA;"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="MANUFACTURER" value="YKS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80f92cd5-4b82-4a35-9b83-ddf712bb4351</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>AOD409</value>
+      <footprint>IRF5505:DPAK</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/IRFR5505/Infineon/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            P-Channel 55 V 18A (Tc) 57W (Tc) Surface Mount D-Pak
+                        
+</field>
+        <field name="MF">Infineon Technologies</field>
+        <field name="MP">IRFR5505</field>
+        <field name="Package">TO-252 Infineon</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/IRFR5505/Infineon/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="IRFR5505" part="IRFR5505" description=""/>
+      <property name="MF" value="Infineon Technologies"/>
+      <property name="Description" value="&#xA;                        &#xA;                            P-Channel 55 V 18A (Tc) 57W (Tc) Surface Mount D-Pak&#xA;                        &#xA;"/>
+      <property name="Package" value="TO-252 Infineon"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/IRFR5505/Infineon/view-part/?ref=snap"/>
+      <property name="MP" value="IRFR5505"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/IRFR5505/Infineon/view-part/?ref=eda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fedcde8-29f5-4737-aff7-9a128f2edbb0</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>IRLR2705PBF</value>
+      <footprint>IRLR2705PBF:TO229P990X239-4N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/IRLR2705PBF/Infineon/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            MOSFET, Power,N-Ch,VDSS 55V,RDS(ON) 0.04Ohm,ID 28A,D-Pak (TO-252AA),PD 68W,-55C | Infineon IRLR2705PBF
+                        
+</field>
+        <field name="MANUFACTURER">Infineon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.39 mm</field>
+        <field name="MF">Infineon Technologies</field>
+        <field name="MP">IRLR2705PBF</field>
+        <field name="PARTREV">1/11/05</field>
+        <field name="Package">TO-252 Infineon</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/IRLR2705PBF/Infineon/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="IRLR2705PBF" part="IRLR2705PBF" description=""/>
+      <property name="MF" value="Infineon Technologies"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.39 mm"/>
+      <property name="Package" value="TO-252 Infineon"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/IRLR2705PBF/Infineon/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="PARTREV" value="1/11/05"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/IRLR2705PBF/Infineon/view-part/?ref=snap"/>
+      <property name="MP" value="IRLR2705PBF"/>
+      <property name="Description" value="&#xA;                        &#xA;                            MOSFET, Power,N-Ch,VDSS 55V,RDS(ON) 0.04Ohm,ID 28A,D-Pak (TO-252AA),PD 68W,-55C | Infineon IRLR2705PBF&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Infineon"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a54eb62-58c3-46d1-a4dc-361665a29741</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>AOD409</value>
+      <footprint>IRF5505:DPAK</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/IRFR5505/Infineon/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            P-Channel 55 V 18A (Tc) 57W (Tc) Surface Mount D-Pak
+                        
+</field>
+        <field name="MF">Infineon Technologies</field>
+        <field name="MP">IRFR5505</field>
+        <field name="Package">TO-252 Infineon</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/IRFR5505/Infineon/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="IRFR5505" part="IRFR5505" description=""/>
+      <property name="MF" value="Infineon Technologies"/>
+      <property name="Description" value="&#xA;                        &#xA;                            P-Channel 55 V 18A (Tc) 57W (Tc) Surface Mount D-Pak&#xA;                        &#xA;"/>
+      <property name="Package" value="TO-252 Infineon"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/IRFR5505/Infineon/view-part/?ref=snap"/>
+      <property name="MP" value="IRFR5505"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/IRFR5505/Infineon/view-part/?ref=eda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>869a8350-b758-41a7-b866-068cc50b78bc</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb3561e6-6285-44ab-954c-68e6bdb54f3b</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93d9cc7b-8eb5-4a59-a6e7-fc87ebb312dc</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59319e62-9e23-401a-b7bd-77aa195f43f2</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75ebcb9c-70d7-4ca6-9bef-eaade4efcdfa</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99841a2d-c36e-4732-96ee-2c664ee6d2eb</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>IRLR2705PBF</value>
+      <footprint>IRLR2705PBF:TO229P990X239-4N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/IRLR2705PBF/Infineon/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            MOSFET, Power,N-Ch,VDSS 55V,RDS(ON) 0.04Ohm,ID 28A,D-Pak (TO-252AA),PD 68W,-55C | Infineon IRLR2705PBF
+                        
+</field>
+        <field name="MANUFACTURER">Infineon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.39 mm</field>
+        <field name="MF">Infineon Technologies</field>
+        <field name="MP">IRLR2705PBF</field>
+        <field name="PARTREV">1/11/05</field>
+        <field name="Package">TO-252 Infineon</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/IRLR2705PBF/Infineon/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="IRLR2705PBF" part="IRLR2705PBF" description=""/>
+      <property name="MF" value="Infineon Technologies"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.39 mm"/>
+      <property name="Package" value="TO-252 Infineon"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/IRLR2705PBF/Infineon/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="PARTREV" value="1/11/05"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/IRLR2705PBF/Infineon/view-part/?ref=snap"/>
+      <property name="MP" value="IRLR2705PBF"/>
+      <property name="Description" value="&#xA;                        &#xA;                            MOSFET, Power,N-Ch,VDSS 55V,RDS(ON) 0.04Ohm,ID 28A,D-Pak (TO-252AA),PD 68W,-55C | Infineon IRLR2705PBF&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Infineon"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>daa5e2f6-57fb-4bb5-b1be-c775a9d4a8fc</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adb225dd-bcf9-488e-85e5-4b08a10e9c22</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42b2cd83-34eb-4295-a04d-d3303a6d8920</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8550bd47-965a-468f-a78b-c9c446e81fed</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>554384b0-1513-4fb7-9071-c9f601dea7fa</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2,2kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba481c39-e1dc-477e-86d8-b45c0cd3045c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16c8f366-d9c8-4458-828b-79cf5f466c9f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51bc813e-6be3-4e2a-82da-41617eef62aa</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53a80f40-6355-4ff1-8c8e-4ecbf7c6f4f1</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57c25272-f962-46c6-b3a9-7c9113eb2e3b</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e14c14d0-cff0-4203-b449-2163fbea085f</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78e8b588-0de2-4943-8059-3cb921c05efa</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02bf90dc-0849-4e54-a89f-d5162ea977b6</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a62661d4-0661-4c29-88c7-b93dbaeab9a2</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a89fbf89-5d54-4047-aca4-8af1415e24ac</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3277d91-3143-485a-bc80-cc86b3edfdd9</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5948600-4304-49ea-815f-56ded2903186</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>951c6cb6-4ef8-49a7-a6c7-a3be4b1ac854</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24f5d925-6330-4f01-bab1-81debb18c852</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fec1cc2-0826-487d-9f40-33796d7154f2</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe9aff8a-10f0-49ac-9d4c-125c4c683457</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98896804-9a34-44c0-9f63-f997af148cf4</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63f7914b-7269-4956-955c-bc977eea243a</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>742016ef-8910-41c5-9411-3494cc47e821</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0badb7fd-2c84-46bc-9cbe-254fa0b3be13</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d908dd8c-09a9-4f0b-a63a-a6fc09723d7b</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>475c7efb-5ca2-4377-b8cc-52996b2f68ee</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>22Ω 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>235e8226-f362-4878-a82e-9c50186c33ab</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe2f361c-ec5a-48cf-9a95-94b160840b6b</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d137f5d-71cc-44bf-8864-732b73bc33f6</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c321ed6a-0a08-4192-99c2-92a690dd6f60</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee24cd29-4e5d-45c2-84b2-1636afb55efd</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>849c96c7-e285-4066-bd7f-36931ba101fd</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31127e19-72d3-4858-a917-6e526cacfe9b</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ef59761-d9d7-4a6e-8ad4-8bee56e448a6</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7018ec70-a249-4d44-a4bc-af5f5d183322</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1d541f7-8cc3-4915-950a-d1e8e9ac3819</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>220Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd62bb96-2d00-4e3e-bcf6-6531491a00c0</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>220Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a0aba76-18a5-4778-bd47-1517572988c1</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>220Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14f97480-a8b9-4ccc-b1a7-ab896e268cd2</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>220Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>999442b8-abc5-49b0-a06e-86ba93ccbfd1</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b43385d-c800-4f83-9a8c-6f32d8f80023</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98afbeab-2276-4c05-8a8e-51897611e338</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c21253ae-9319-4615-9d35-c1e2008e3661</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0476dad-8d48-43e9-8bc2-d07986926b21</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db383582-2a85-4f3a-9dae-e706044592b3</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3f3e77b-d85d-49ad-b77b-cadb72c37dd0</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>1kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a68b9a37-6cea-4d77-ade3-739ac883a2ad</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e7b08fc-70d6-405d-9eee-c52a8fa01393</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>IRF5305</value>
+      <footprint>IRF5305:TO263AB</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/IRF5305/Infineon/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            P-Channel 55 V 31A (Tc) 3.8W (Ta), 110W (Tc) Surface Mount D2PAK
+                        
+</field>
+        <field name="MF">Infineon / IR</field>
+        <field name="MP">IRF5305</field>
+        <field name="Package">TO-220 Infineon</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/IRF5305/Infineon/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="IRF5305" part="IRF5305" description=""/>
+      <property name="MF" value="Infineon / IR"/>
+      <property name="Description" value="&#xA;                        &#xA;                            P-Channel 55 V 31A (Tc) 3.8W (Ta), 110W (Tc) Surface Mount D2PAK&#xA;                        &#xA;"/>
+      <property name="Package" value="TO-220 Infineon"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/IRF5305/Infineon/view-part/?ref=snap"/>
+      <property name="MP" value="IRF5305"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/IRF5305/Infineon/view-part/?ref=eda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba2b3241-7b3b-40b1-bc30-c7c496d163e6</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ADS1115IDGS</value>
+      <footprint>Package_SO:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ads1113.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="ADS1115IDGS" description="Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"/>
+      <property name="ki_keywords" value="16 bit 4 channel I2C ADC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4a24871-8a5e-4d83-b97e-bb331fee43b2</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LM317L_SO8</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM317L_SO8" description="100mA 35V Adjustable Linear Regulator, SO-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EPPR tester.kicad_sch"/>
+      <property name="ki_description" value="100mA 35V Adjustable Linear Regulator, SO-8"/>
+      <property name="ki_keywords" value="Adjustable Voltage Regulator 100mA Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>803581c7-8571-4af9-9b7b-0ec12cff1063</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="SRD-05VDC-SL-C_1">
+      <fields>
+        <field name="Reference">K4</field>
+        <field name="Value">SRD-05VDC-SL-C</field>
+        <field name="Footprint">SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C</field>
+        <field name="MF">Songle Relay</field>
+        <field name="Description">
+                        
+                            5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi
+                        
+</field>
+        <field name="Package">NON STANDARD-5 Songle Relay</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7251</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap</field>
+        <field name="MP">SRD-05VDC-SL-C</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">SONGLE RELAY</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="" type="passive"/>
+        <pin num="A2" name="" type="passive"/>
+        <pin num="COM" name="" type="passive"/>
+        <pin num="NC" name="" type="passive"/>
+        <pin num="NO" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SRD-05VDC-SL-C_2">
+      <fields>
+        <field name="Reference">K5</field>
+        <field name="Value">SRD-05VDC-SL-C</field>
+        <field name="Footprint">SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C</field>
+        <field name="Description">
+                        
+                            5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi
+                        
+</field>
+        <field name="MF">Songle Relay</field>
+        <field name="Package">NON STANDARD-5 Songle Relay</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7251</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap</field>
+        <field name="MP">SRD-05VDC-SL-C</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">SONGLE RELAY</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="" type="passive"/>
+        <pin num="A2" name="" type="passive"/>
+        <pin num="COM" name="" type="passive"/>
+        <pin num="NC" name="" type="passive"/>
+        <pin num="NO" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Analog_ADC" part="ADS1115IDGS">
+      <description>Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ads1113.pdf</docs>
+      <footprints>
+        <fp>TSSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1115IDGS</field>
+        <field name="Footprint">Package_SO:TSSOP-10_3x3mm_P0.5mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ads1113.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="ALERT/RDY" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="6" name="AIN2" type="input"/>
+        <pin num="7" name="AIN3" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="bidirectional"/>
+        <pin num="10" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="B2B-XH-A" part="B2B-XH-A">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">B2B-XH-A</field>
+        <field name="Footprint">B2B-XH-A:JST_B2B-XH-A</field>
+        <field name="MF">JST Sales</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7 mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">N/A</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B2B-XH-A/JST/view-part/?ref=snap</field>
+        <field name="MP">B2B-XH-A</field>
+        <field name="Description">
+                        
+                            Connector Header Through Hole 2 position 0.098 (2.50mm)
+                        
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="B3B-XH-A" part="B3B-XH-A">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">B3B-XH-A</field>
+        <field name="Footprint">B3B-XH-A:JST_B3B-XH-A</field>
+        <field name="MF">JST Sales</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.00 mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B3B-XH-A/JST/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">7/4/21</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B3B-XH-A/JST/view-part/?ref=snap</field>
+        <field name="MP">B3B-XH-A</field>
+        <field name="Description">
+                        
+                            Connector Header Through Hole 3 position 0.098 (2.50mm)
+                        
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="B4B-XH-A_LF__SN_" part="B4B-XH-A_LF__SN_">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">B4B-XH-A_LF__SN_</field>
+        <field name="Footprint">B4B-XH-A_LF__SN_:JST_B4B-XH-A_LF__SN_</field>
+        <field name="MF">JST Sales</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.00 mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B4B-XH-A%20(LF)(SN)/JST/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">7/4/21</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B4B-XH-A%20(LF)(SN)/JST/view-part/?ref=snap</field>
+        <field name="MP">B4B-XH-A (LF)(SN)</field>
+        <field name="Description">
+                        
+                            Connector Header Through Hole 4 position 0.098 (2.50mm)
+                        
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">JST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IRF5305" part="IRF5305">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IRF5305</field>
+        <field name="Footprint">IRF5305:TO263AB</field>
+        <field name="MF">Infineon / IR</field>
+        <field name="Description">
+                        
+                            P-Channel 55 V 31A (Tc) 3.8W (Ta), 110W (Tc) Surface Mount D2PAK
+                        
+</field>
+        <field name="Package">TO-220 Infineon</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/IRF5305/Infineon/view-part/?ref=snap</field>
+        <field name="MP">IRF5305</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/IRF5305/Infineon/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IRFR5505" part="IRFR5505">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRFR5505</field>
+        <field name="Footprint">IRFR5505:DPAK</field>
+        <field name="MF">Infineon Technologies</field>
+        <field name="Description">
+                        
+                            P-Channel 55 V 18A (Tc) 57W (Tc) Surface Mount D-Pak
+                        
+</field>
+        <field name="Package">TO-252 Infineon</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/IRFR5505/Infineon/view-part/?ref=snap</field>
+        <field name="MP">IRFR5505</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/IRFR5505/Infineon/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IRLR2705PBF" part="IRLR2705PBF">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLR2705PBF</field>
+        <field name="Footprint">IRLR2705PBF:TO229P990X239-4N</field>
+        <field name="MF">Infineon Technologies</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.39 mm</field>
+        <field name="Package">TO-252 Infineon</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/IRLR2705PBF/Infineon/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="PARTREV">1/11/05</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/IRLR2705PBF/Infineon/view-part/?ref=snap</field>
+        <field name="MP">IRLR2705PBF</field>
+        <field name="Description">
+                        
+                            MOSFET, Power,N-Ch,VDSS 55V,RDS(ON) 0.04Ohm,ID 28A,D-Pak (TO-252AA),PD 68W,-55C | Infineon IRLR2705PBF
+                        
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Infineon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MC00100" part="MC00100">
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">MC00100</field>
+        <field name="Footprint">MC00100:CONV_MC00100</field>
+        <field name="MF">YKS</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">14.00mm</field>
+        <field name="CREATOR">ASHISH</field>
+        <field name="Price">None</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MC00100/YKS/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">NA</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MC00100/YKS/view-part/?ref=snap</field>
+        <field name="MP">MC00100</field>
+        <field name="Description">
+                        
+                            DC-DC LM2596 Step Down Adjustable Converter Power Supply Module 1.3V-35V
+                        
+</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">YKS</field>
+      </fields>
+      <pins>
+        <pin num="IN+" name="IN+" type="input"/>
+        <pin num="IN-" name="IN-" type="input"/>
+        <pin num="MH1" name="MOUTING" type="passive"/>
+        <pin num="MH2" name="MOUTING" type="passive"/>
+        <pin num="OUT+" name="OUT+" type="output"/>
+        <pin num="OUT-" name="OUT-" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v3.x">
+      <description>Arduino Nano v3.x</description>
+      <docs>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v3.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMZ2012Y152BT" part="MMZ2012Y152BT">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">MMZ2012Y152BT</field>
+        <field name="Footprint">MMZ2012Y152BT:INDC2012X87N</field>
+        <field name="MF">TDK</field>
+        <field name="Description">
+                        
+                            1.5 kOhms @ 100 MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 500mA 400mOhm
+                        
+</field>
+        <field name="Package">0805 TDK</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MMZ2012Y152B/TDK/view-part/?ref=snap</field>
+        <field name="MP">MMZ2012Y152B</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MMZ2012Y152B/TDK/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM317L_SO8">
+      <description>100mA 35V Adjustable Linear Regulator, SO-8</description>
+      <docs>http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317L_SO8</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VO" type="passive"/>
+        <pin num="4" name="ADJ" type="input"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="VO" type="passive"/>
+        <pin num="7" name="VO" type="passive"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="SRD-05VDC-SL-C" part="SRD-05VDC-SL-C">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">SRD-05VDC-SL-C</field>
+        <field name="Footprint">SRD-05VDC-SL-C:RELAY_SRD-05VDC-SL-C</field>
+        <field name="MF">Songle Relay</field>
+        <field name="Description">
+                        
+                            5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi
+                        
+</field>
+        <field name="Package">NON STANDARD-5 Songle Relay</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7251</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap</field>
+        <field name="MP">SRD-05VDC-SL-C</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">SONGLE RELAY</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="" type="passive"/>
+        <pin num="A2" name="" type="passive"/>
+        <pin num="COM" name="" type="passive"/>
+        <pin num="NC" name="" type="passive"/>
+        <pin num="NO" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MMBT3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_ADC">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Analog_ADC.kicad_sym</uri>
+    </library>
+    <library logical="B2B-XH-A">
+      <uri>C:/Users/molnart1/Desktop/Vezérlő projekt/EPPR tester/Libraries/B2B-XH-A/B2B-XH-A.kicad_sym</uri>
+    </library>
+    <library logical="B3B-XH-A">
+      <uri>C:/Users/molnart1/Desktop/Vezérlő projekt/EPPR tester/Libraries/B3B-XH-A/B3B-XH-A.kicad_sym</uri>
+    </library>
+    <library logical="B4B-XH-A_LF__SN_">
+      <uri>C:/Users/molnart1/Desktop/Vezérlő projekt/EPPR tester/Libraries/B4B-XH-A/B4B-XH-A_LF__SN_.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="IRF5305">
+      <uri>C:/Users/molnart1/Desktop/Vezérlő projekt/EPPR tester/Libraries/IRF5305/IRF5305.kicad_sym</uri>
+    </library>
+    <library logical="IRFR5505">
+      <uri>C:/Users/molnart1/Desktop/Vezérlő projekt/EPPR tester/Libraries/IRF5505/IRFR5505.kicad_sym</uri>
+    </library>
+    <library logical="IRLR2705PBF">
+      <uri>C:/Users/molnart1/Desktop/Vezérlő projekt/EPPR tester/Libraries/IRLR2705PBF/IRLR2705PBF.kicad_sym</uri>
+    </library>
+    <library logical="MC00100">
+      <uri>C:/Users/molnart1/Desktop/Vezérlő projekt/EPPR tester/Libraries/MC00100/MC00100.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="MMZ2012Y152BT">
+      <uri>C:/Users/molnart1/Desktop/Vezérlő projekt/EPPR tester/Libraries/MMZ2012Y152B/MMZ2012Y152BT.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="SRD-05VDC-SL-C">
+      <uri>C:/Users/molnart1/Desktop/Vezérlő projekt/EPPR tester/Libraries/SRD-05VDC-SL-C/SRD-05VDC-SL-C.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="A1" pin="30" pinfunction="VIN" pintype="power_in"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="K1" pin="A1" pintype="passive"/>
+      <node ref="K3" pin="A1" pintype="passive"/>
+      <node ref="K4" pin="A2" pintype="passive"/>
+      <node ref="K5" pin="A2" pintype="passive"/>
+      <node ref="K6" pin="A1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="PS1" pin="OUT+" pinfunction="OUT+" pintype="output"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="PS1" pin="IN+" pinfunction="IN+" pintype="input"/>
+      <node ref="Q1" pin="3" pintype="passive"/>
+      <node ref="Q3" pin="3" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/AMS">
+      <node ref="A1" pin="6" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/CGS">
+      <node ref="A1" pin="11" pinfunction="D8" pintype="bidirectional"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/DV1I">
+      <node ref="A1" pin="7" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/DV2I">
+      <node ref="A1" pin="2" pinfunction="D0/RX" pintype="bidirectional"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/GV1I">
+      <node ref="A1" pin="8" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/GV2I">
+      <node ref="A1" pin="1" pinfunction="D1/TX" pintype="bidirectional"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/HBS1C">
+      <node ref="A1" pin="12" pinfunction="D9" pintype="bidirectional"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/HBS2C">
+      <node ref="A1" pin="13" pinfunction="D10" pintype="bidirectional"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/HBS2C_B">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q13" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="/HBS2C_E">
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q10" pin="1" pintype="passive"/>
+      <node ref="Q13" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/HBS3C">
+      <node ref="A1" pin="14" pinfunction="D11" pintype="bidirectional"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/HBS4C">
+      <node ref="A1" pin="15" pinfunction="D12" pintype="bidirectional"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/HBS4C_B">
+      <node ref="Q12" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/HBS4C_E">
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q12" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="/PWM_Value">
+      <node ref="A1" pin="22" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="J8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/RGLB">
+      <node ref="A1" pin="5" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="/RGRB">
+      <node ref="A1" pin="21" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="/RM">
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K4" pin="COM" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="AIN0" pintype="input"/>
+    </net>
+    <net code="21" name="/RM_A0">
+      <node ref="A1" pin="19" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="22" name="/RSB">
+      <node ref="A1" pin="20" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="/SCL">
+      <node ref="A1" pin="24" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="24" name="/SDA">
+      <node ref="A1" pin="23" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/VDS">
+      <node ref="A1" pin="10" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="/VS1">
+      <node ref="A1" pin="9" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="/VS2">
+      <node ref="A1" pin="16" pinfunction="D13" pintype="bidirectional"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="/Valve_1_Input_1">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K5" pin="NC" pintype="passive"/>
+    </net>
+    <net code="29" name="/Valve_1_Input_2">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K6" pin="NC" pintype="passive"/>
+    </net>
+    <net code="30" name="/Valve_2_Input_1">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K5" pin="NO" pintype="passive"/>
+    </net>
+    <net code="31" name="/Valve_2_Input_2">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K6" pin="NO" pintype="passive"/>
+    </net>
+    <net code="32" name="/Valve_IN_1">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K1" pin="NO" pintype="passive"/>
+      <node ref="K3" pin="NO" pintype="passive"/>
+      <node ref="K4" pin="NO" pintype="passive"/>
+      <node ref="K5" pin="COM" pintype="passive"/>
+      <node ref="Q2" pin="4" pintype="passive"/>
+      <node ref="Q3" pin="4" pintype="passive"/>
+    </net>
+    <net code="33" name="/Valve_IN_2">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K6" pin="COM" pintype="passive"/>
+      <node ref="Q1" pin="4" pintype="passive"/>
+      <node ref="Q10" pin="4" pintype="passive"/>
+    </net>
+    <net code="34" name="GND">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="PS1" pin="IN-" pinfunction="IN-" pintype="input"/>
+      <node ref="PS1" pin="OUT-" pinfunction="OUT-" pintype="output"/>
+      <node ref="Q10" pin="3" pintype="passive"/>
+      <node ref="Q11" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q14" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="3" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="GND2">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="36" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K4" pin="A1" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K3" pin="A2" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K1" pin="A2" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K5" pin="A1" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K6" pin="A2" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D13-A)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D14-A)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q3" pin="1" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="3" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(J1-Pin_1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(J11-Pad2)">
+      <node ref="J11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(J12-Pad2)">
+      <node ref="J12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(J13-Pad2)">
+      <node ref="J13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(J14-Pad2)">
+      <node ref="J14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(J15-Pad1)">
+      <node ref="J15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(K1-PadCOM)">
+      <node ref="K1" pin="COM" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(Q5-B)">
+      <node ref="Q5" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(Q6-B)">
+      <node ref="Q6" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(Q7-B)">
+      <node ref="Q7" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(Q8-B)">
+      <node ref="Q8" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(Q9-B)">
+      <node ref="Q9" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(Q11-B)">
+      <node ref="Q11" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(Q11-C)">
+      <node ref="Q11" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(Q12-C)">
+      <node ref="Q12" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(Q13-C)">
+      <node ref="Q13" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(Q14-B)">
+      <node ref="Q14" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(Q14-C)">
+      <node ref="Q14" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U3" pin="3" pinfunction="VO" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="VO" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="VO" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(U2-ADDR)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="ADDR" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(U2-ALERT{slash}RDY)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="ALERT/RDY" pintype="output"/>
+    </net>
+    <net code="69" name="Net-(U3-ADJ)">
+      <node ref="K3" pin="COM" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="70" name="VDD">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="71" name="unconnected-(A1-+5V-Pad27)">
+      <node ref="A1" pin="27" pinfunction="+5V" pintype="power_out+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(A1-3V3-Pad17)">
+      <node ref="A1" pin="17" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(A1-A6-Pad25)">
+      <node ref="A1" pin="25" pinfunction="A6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(A1-A7-Pad26)">
+      <node ref="A1" pin="26" pinfunction="A7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(A1-AREF-Pad18)">
+      <node ref="A1" pin="18" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(A1-~{RESET}-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(A1-~{RESET}-Pad28)">
+      <node ref="A1" pin="28" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(K1-PadNC)">
+      <node ref="K1" pin="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(K3-PadNC)">
+      <node ref="K3" pin="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(K4-PadNC)">
+      <node ref="K4" pin="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(PS1-MOUTING-PadMH1)">
+      <node ref="PS1" pin="MH1" pinfunction="MOUTING" pintype="passive+no_connect"/>
+      <node ref="PS1" pin="MH2" pinfunction="MOUTING" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U2-AIN1-Pad5)">
+      <node ref="U2" pin="5" pinfunction="AIN1" pintype="input+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U2-AIN2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="AIN2" pintype="input+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U2-AIN3-Pad7)">
+      <node ref="U2" pin="7" pinfunction="AIN3" pintype="input+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U3-NC-Pad5)">
+      <node ref="U3" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U3-NC-Pad8)">
+      <node ref="U3" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
