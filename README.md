@@ -49,7 +49,8 @@ A projekt áramköri kialakítása során a fő szempont a megbízhatóság, a k
 A hardver tervezése KiCad szoftverben történt. Az alábbi képeken látható a műszer teljes kapcsolási rajza, valamint a többrétegű nyomtatott áramköri lap 3D-s látványterve, amelyen jól kivehetők a cserélhetőséget biztosító XH csatlakozók is.
 
 **Kapcsolási rajz (Schematic):**
-![Kapcsolási rajz](Hardware/EPPR_Tester_schematic.pdf.pdf)
+![Kapcsolási rajz](Hardware/EPPR_Tester_schematic.pdf)
+
 
 
 
