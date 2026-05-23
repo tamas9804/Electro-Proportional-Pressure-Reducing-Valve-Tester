@@ -1,1 +1,2 @@
-# Electro-Proportional-Pressure-Reducing-Valve-Tester
+Elektromos Nyomáscsökkentő szelep tesztelő
+
