@@ -26,3 +26,17 @@
   * **PWM kivezérlés:** Impulzusszélesség-modulált (PWM) jel kiadása a szelep proporcionális mozgásának teszteléséhez.
   * **Beállítások:** Rendszerkonfigurációs menü, ahol a felhasználó megadhatja a tesztelt szelepek számát, illetve kiválaszthatja a kívánt nyelvet.
 * **Többnyelvűség:** A szoftver képesnek kell lennie több nyelv (Magyar, Angol, Német) dinamikus kezelésére és tartós tárolására.A műszernek újraindítás után is megkell jegyeznie az elmentett szelepek számát, illetve a beállított nyelvet
+
+##  Kiválasztott hardverkomponensek 
+
+A projekt áramköri kialakítása során a fő szempont a megbízhatóság, a költséghatékonyság, valamint az ipari (12-24V) környezetnek való megfelelés volt. Az áramkör az alábbi főbb alkatrészekre épül:
+
+### Vezérlés és Megjelenítés
+* **Arduino Nano (ATmega328P):** Költséghatékony, könnyen programozható, és az I/O lábszáma, valamint a számítási kapacitása tökéletesen elegendő a műszer funkcióinak (állapotgép, I2C kommunikáció, PWM) ellátására.
+* **16x4 LCD kijelző (I2C modullal):** A teszteredmények és a menürendszer megjelenítéséért felel. Az I2C bővítőnek köszönhetően mindössze két adatvonalat (SDA, SCL) igényel, így rengeteg portot spórol meg a mikrokontrolleren, és a programozása is rendkívül egyszerű.
+
+### Precíziós Mérésadatgyűjtés
+* **ADS1115 (16-bites ADC):** A mikrokontroller beépített, alacsonyabb felbontású analóg-digitális átalakítója helyett ez a dedikált IC garantálja a rendkívül pontos (akár 0,1%-os) áram- és feszültségmérést.
+* **LM317 feszültségszabályzó (Áramgenerátoros módban):** A precíziós ellenállásmérés alapja. Stabil, állandó mérőáramot biztosít a szelepek tekercsére, ami elengedhetetlen a pontos ellenállás kiszámításához.
+* **Feszültségosztó hálózat:** Egy dedikált, egyszerű és gyors mérőáramkör a tekercsek folytonosságának azonnali ellenőrzésére.
+
