@@ -66,7 +66,7 @@ A nagy pontosságú mérésekért egy **ADS1115** 16-bites külső ADC modul fel
 
 ![ADC modul](Hardware/ADC_Schematic.PNG)
 
-### 4 Polaritás váltóz híd 
+### 4 Polaritás váltó híd 
 Ez az áramkör tartalmazza a polaritás váltást az adott kimeneten, illetve kezeli hogy 12V illetve 24V-ről is tudjon működni.
 ![Funkcióváltó](Hardware/PolaritySwtich_Schematic.PNG)
 
