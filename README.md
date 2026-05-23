@@ -101,9 +101,8 @@ A megbízható és zajmentes ipari működés érdekében a NYÁK-tervezés sor�
 
 A nyomtatott áramkörről és a rászerelt alkatrészekről egy teljes 3D modell készült. Ez a modell alapvető fontosságú a műszer külső dobozolásának megtervezéséhez, az ütközések ellenőrzéséhez, valamint a gombok és a kijelző pontos pozicionálásához.
 
-**A NYÁK 3D-s látványterve (Render):**
-[**Kattints ide a panel interaktív 3D megtekintéséhez!**](3D_models/eppr_tester.stl)
-
+**A PCB 3D-s látványterve :**
+[**Kattints ide a panel interaktív 3D megtekintéséhez!**](Hardware/3D file/EPPR tester.stl)
 
 ## Fizikai Összeépítés és Prototípus
 
