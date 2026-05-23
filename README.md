@@ -42,6 +42,6 @@ A projekt áramköri kialakítása során a fő szempont a megbízhatóság, a k
 * **LM2596S DC-DC Step-down konverter:** A műszer tápegysége. A széles ipari feszültségtartományt (12V - 24V) hatékonyan és biztonságosan alakítja át a logikai áramkörök számára szükséges 5V-os stabil feszültségre.
 * **AOD409 (P-csat) és IRLR2705 (N-csat) MOSFET-ek:** Ezek a nagy áramtűrésű tranzisztorok felelnek a szelepek (H-híd topológiájú) meghajtásáért. Biztosítják a biztonságos, melegedésmentes PWM szabályozást és a folyamatos, 100%-os kivezérlést a legnagyobb áramfelvételű szelepek esetén is.
 * **SRD-05VDC-SL-C 5V Relék:** Mechanikus kapcsolóelemek, amelyek a különböző mérési körök (pl. áramgenerátoros mérés és PWM hajtás) fizikai és galvanikus leválasztását végzik, védve ezzel az érzékeny mérőelektronikát a tesztelés során.
-### 4.Mechanika és Csatlakozók
+### 4. Mechanika és Csatlakozók
 * **JST XH csatlakozók a PCB-n:** A kijelző, a nyomógombok és a potenciométerek nem közvetlenül a panelre vannak forrasztva, hanem szabványos XH csatlakozókkal csatlakoznak. Ez drasztikusan megkönnyíti az alkatrészek cseréjét, valamint sokkal nagyobb szabadságot ad a végleges műszerház (enclosure) 3D tervezésénél és összeszerelésénél
 
