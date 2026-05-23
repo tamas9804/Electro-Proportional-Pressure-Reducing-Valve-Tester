@@ -68,17 +68,21 @@ A nagy pontosságú mérésekért egy **ADS1115** 16-bites külső ADC modul fel
 
 ### 4 Polaritás váltó híd 
 Ez az áramkör tartalmazza a polaritás váltást az adott kimeneten, illetve kezeli hogy 12V illetve 24V-ről is tudjon működni.
+
 ![Funkcióváltó](Hardware/PolaritySwtich_Schematic.PNG)
 
 ### 5 Mérési Mód Választó Relé (AM / VD Switch)
 Ez a modul választja ki, hogy az ADC éppen az analóg mérőjelet vagy a folytonossági teszthez szükséges feszültségosztót olvassa be.
+
 ![Mérési mód választó](Hardware/AM_VD_Switch_Schematic.PNG)
 
 ### 6 Szelep Szekvencia Választó Relék (Sequence Switch)
 Ez a rész kapcsolja a kimenetet, ezzel a kapcsolással egyszerre két szelep is rácsatlakoztatható és külön külön lemérhető.
+
 ![Szelep választó](Hardware/ValveSequenceSwitch_Schematic.PNG)
 
 ### 7 Szelep Csatlakozók és Állapotjelző LED-ek
 Ez a kimeneti modul tartalmazza a fizikai sorkapcsokat a szelepek bekötéséhez. Tartalmazza az optikai visszajelzést biztosító LED csatlakozását amelyek mutatják az adott szelep kimenet állapotát.
+
 ![Szelep kimenetek](Hardware/ValveInputs_and_LedOutputs_Schematic.PNG)
 
