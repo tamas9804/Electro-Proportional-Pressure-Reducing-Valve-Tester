@@ -1,6 +1,6 @@
 # Elektronikus nyomáscsökkentő szelep tesztelő
 
-## Bevezetés: Megvalósítandó funkciók
+## Megvalósítandó funkciók
 
 ### 1. Mérési funkciók 
 * **Szelepek folytonosságának mérése:** Gyors szakadás- és zárlatvizsgálat a szelepek tekercsén.
