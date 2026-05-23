@@ -45,3 +45,11 @@ A projekt áramköri kialakítása során a fő szempont a megbízhatóság, a k
 ### 4. Mechanika és Csatlakozók
 * **JST XH csatlakozók a PCB-n:** A kijelző, a nyomógombok és a potenciométerek nem közvetlenül a panelre vannak forrasztva, hanem szabványos XH csatlakozókkal csatlakoznak. Ez drasztikusan megkönnyíti az alkatrészek cseréjét, valamint sokkal nagyobb szabadságot ad a végleges műszerház (enclosure) 3D tervezésénél és összeszerelésénél
 
+## Kapcsolási rajz és NYÁK terv (
+A hardver tervezése KiCad szoftverben történt. Az alábbi képeken látható a műszer teljes kapcsolási rajza, valamint a többrétegű nyomtatott áramköri lap 3D-s látványterve, amelyen jól kivehetők a cserélhetőséget biztosító XH csatlakozók is.
+
+**Kapcsolási rajz (Schematic):**
+![Kapcsolási rajz](images/schematic.png)
+
+
+
