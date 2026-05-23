@@ -86,3 +86,8 @@ Ez a kimeneti modul tartalmazza a fizikai sorkapcsokat a szelepek bekötéséhez
 
 ![Szelep kimenetek](Hardware/ValveInputs_and_LedOutputs_Schematic.PNG)
 
+
+## 3D Modell 
+
+[**Kattints ide a 3D modell interaktív megtekintéséhez!**](Hardware/EPPR_tester_model.stl) *(Megjegyzés: A linkre kattintva a GitHub automatikusan betölti a 3D nézegetőt).*
+
