@@ -58,5 +58,11 @@ Ez a modul felel a rendszer stabil feszültségellátásáért. A 24V-os bemenet
 
 ### 2. Vezérlő interfészek és Felhasználói Felület csatlakozók
 Itt látható az **Arduino Nano** mikrokontroller központi bekötése. Ez a modul kezeli az I2C buszt az LCD kijelzőt és az ADC-t. Tartalmazza a JST XH csatlakozók bekötését a navigációs nyomógombokhoz, a potméterhez.
+
 ![Vezérlő](Hardware/Contoller_Interfaces_Schematic.PNG)
+
+#### 3. Precíziós Analóg-Digitális Átalakítás (ADC)
+A nagy pontosságú mérésekért egy **ADS1115** 16-bites külső ADC modul felel. I2C buszon kommunikál a vezérlővel.
+
+![ADC modul](Hardware/ADC_Schematic.PNG)
 
