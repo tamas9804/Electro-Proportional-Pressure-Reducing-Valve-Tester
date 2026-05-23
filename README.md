@@ -97,3 +97,22 @@ A megbízható és zajmentes ipari működés érdekében a NYÁK-tervezés sor�
 * **Adatvonalak árnyékolása:** A kritikus kommunikációs vonalak (például az I2C busz SDA és SCL vonalai) a rézrétegen mindkét oldalról föld-sávokkal lettek körbevéve. Ez a technika drasztikusan csökkenti az áthallást és megvédi az érzékeny digitális jeleket a relék által keltett zavaroktól.
 * **Precíziós Analóg Tápszűrés:** Az **ADS1115** 16-bites ADC tápellátását egy dedikált ferrit szűrővel választottuk le a közös 5V-os digitális tápvezetékről. Ez a szűrőmegoldás hatékonyan blokkolja a mikrokontroller és a digitális kapcsolóelemek által keltett nagyfrekvenciás zajokat, így garantálja a zajmentes tápfeszültséget az ADC számára, ami elengedhetetlen a 0,1%-os mérési pontosság eléréséhez.
 
+## 3D Modell
+
+A nyomtatott áramkörről és a rászerelt alkatrészekről egy teljes 3D modell készült. Ez a modell alapvető fontosságú a műszer külső dobozolásának megtervezéséhez, az ütközések ellenőrzéséhez, valamint a gombok és a kijelző pontos pozicionálásához.
+
+**A NYÁK 3D-s látványterve (Render):**
+![3D Render](images/pcb_3d_render.png)
+
+*A forrásfájlok és a gépészeti modellek az alábbi linkeken érhetők el a tárolóban:*
+* 🔄 [Interaktív, forgatható 3D online nézet (STL formátum)](3D_models/EPPR_tester_model.stl)
+* 📥 [Univerzális CAD fájl letöltése továbbtervezéshez (STEP formátum)](3D_models/EPPR_tester.step)
+
+---
+
+## Fizikai Összeépítés és Prototípus
+
+Az alábbi képen a már legyártott, 4 rétegű **FR-4**-es nyomtatott áramkör látható a valóságban, készre szerelt állapotban. 
+
+**A kész, működőképes áramkör a valóságban:**
+![Fizikai összeépítés](images/physical_assembly.jpg)
