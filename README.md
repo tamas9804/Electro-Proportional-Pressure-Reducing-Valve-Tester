@@ -88,10 +88,12 @@ Ez a kimeneti modul tartalmazza a fizikai sorkapcsokat a szelepek bekötéséhez
 
 ## Nyomtatott Áramkör 
 
-A hardver fizikai megvalósítása a KiCad szoftverben készült. A megbízható és zajmentes ipari működés érdekében a NYÁK-tervezés (routing) során az alábbi szigorú tervezési irányelveket követtük:
+A megbízható és zajmentes ipari működés érdekében a NYÁK-tervezés során az alábbi tervezési irányelveket követtem:
 
-* **4 rétegű felépítés (4-Layer Stackup):** A panel ipari szabványú **FR-4**-es hordozóanyagra készült, 4 rétegű kialakítással. Ez lehetővé tette a jelvezetékek és a tápvezetékek optimális szétválasztását.
-* **Dedikált Föld és Táp síkok (GND & Power Planes):** A kiváló zajvédelem érdekében a két belső réteg (Inner 1 és Inner 2) dedikált feladatot kapott. Az egyik egy megszakítás nélküli, masszív Föld-sík (GND), a másik pedig egy egybefüggő Táp-sík (VCC/24V). Ez minimalizálja a hurok-induktivitást és stabil referenciát biztosít a precíziós analóg mérésekhez.
-* **Áramra méretezett vezetősávok:** A teljesítményelektronikai részeknél (a H-híd MOSFET-jei, a relék és a szelepek kimeneti csatlakozói között) a vezetősávok szélessége (trace width) pontosan a maximális átfolyó áramra lett méretezve a melegedés és a feszültségesés elkerülése végett.
-* **Zajszűrés optimalizálása (Decoupling):** A tápszűrő kondenzátorok (bypass capacitors) fizikailag a lehető legközelebb kerültek az integrált áramkörök (Arduino Nano, ADS1115 ADC, LM317) táplábaihoz, így hatékonyan nyelik el a magas frekvenciás tranzienseket.
-* **Adatvonalak árnyékolása (Ground Guarding):** A kritikus kommunikációs vonalak (például az I2C busz SDA és SCL vonalai) a rézrétegen mindkét oldalról föld-sávokkal lettek körbevéve (coplanar shielding). Ez a technika drasztikusan csökkenti az áthallást (crosstalk) és megvédi az érzékeny digitális jeleket a relék vagy a PWM hajtás által keltett zavaroktól.
+* **4 rétegű felépítés:** A panel ipari szabványú **FR-4**-es hordozóanyagra készült, 4 rétegű kialakítással. Ez lehetővé tette a jelvezetékek és a tápvezetékek optimális szétválasztását.
+* **Dedikált Föld és Táp síkok:** A kiváló zajvédelem érdekében a két belső réteg dedikált feladatot kapott. Az egyik egy megszakítás nélküli, masszív Föld-sík, a másik pedig egy egybefüggő Táp-sík (5V). Ez minimalizálja a hurok-induktivitást és stabil referenciát biztosít a precíziós analóg mérésekhez.
+* **Áramra méretezett vezetősávok:** A teljesítményelektronikai részeknél a vezetősávok szélessége a maximális átfolyó áramra lett méretezve a melegedés és a feszültségesés elkerülése végett.
+* **Zajszűrés optimalizálása:** A tápszűrő kondenzátorok fizikailag a lehető legközelebb kerültek az integrált áramkörök (Arduino Nano, ADS1115, LM317) táplábaihoz, így hatékonyan nyelik el a magas frekvenciás tranzienseket.
+* **Adatvonalak árnyékolása:** A kritikus kommunikációs vonalak (például az I2C busz SDA és SCL vonalai) a rézrétegen mindkét oldalról föld-sávokkal lettek körbevéve. Ez a technika drasztikusan csökkenti az áthallást és megvédi az érzékeny digitális jeleket a relék által keltett zavaroktól.
+* **Precíziós Analóg Tápszűrés:** Az **ADS1115** 16-bites ADC tápellátását egy dedikált ferrit szűrővel választottuk le a közös 5V-os digitális tápvezetékről. Ez a szűrőmegoldás hatékonyan blokkolja a mikrokontroller és a digitális kapcsolóelemek által keltett nagyfrekvenciás zajokat, így garantálja a zajmentes tápfeszültséget az ADC számára, ami elengedhetetlen a 0,1%-os mérési pontosság eléréséhez.
+
