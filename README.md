@@ -45,12 +45,13 @@ A projekt áramköri kialakítása során a fő szempont a megbízhatóság, a k
 ### 4. Mechanika és Csatlakozók
 * **JST XH csatlakozók a PCB-n:** A kijelző, a nyomógombok és a potenciométerek nem közvetlenül a panelre vannak forrasztva, hanem szabványos XH csatlakozókkal csatlakoznak. Ez drasztikusan megkönnyíti az alkatrészek cseréjét, valamint sokkal nagyobb szabadságot ad a végleges műszerház (enclosure) 3D tervezésénél és összeszerelésénél
 
-## Kapcsolási rajz és NYÁK terv (
-A hardver tervezése KiCad szoftverben történt. Az alábbi képeken látható a műszer teljes kapcsolási rajza, valamint a többrétegű nyomtatott áramköri lap 3D-s látványterve, amelyen jól kivehetők a cserélhetőséget biztosító XH csatlakozók is.
+## Részletes Áramköri Felépítés
 
-**Kapcsolási rajz (Schematic):**
-![Kapcsolási rajz](Hardware/Schematic.svg)
+Mivel a teljes kapcsolási rajz A3-as méretű, a könnyebb átláthatóság és olvashatóság érdekében funkcionális blokkokra bontva mutatjuk be a hardver működését.
 
+A teljes rajz letölthető [**PDF formátumban**](Hardware/EPPR_tester_full.pdf)
 
-
+### 1. Tápellátás és Fordított Polaritás Elleni Védelem
+Ez a modul felel a rendszer stabil feszültségellátásáért. A 24V-os bemenetet egy biztosíték és egy dióda védi a fordított polaritás ellen. Egy **LM2596S** kapcsolóüzemű szabályzó állítja elő a logikai áramkörök számára szükséges stabil 5V-ot nagy hatásfokkal.
+![Tápellátás](Hardware/PowerSupply_Schematic.PNG)
 
