@@ -109,4 +109,4 @@ A nyomtatott áramkörről és a rászerelt alkatrészekről egy teljes 3D model
 Az alábbi képen a már legyártott, 4 rétegű **FR-4**-es nyomtatott áramkör látható a valóságban, készre szerelt állapotban. 
 
 **A kész, működőképes áramkör a valóságban:**
-![Fizikai összeépítés](Images/V1.0_Prototype.jpg)
+![Fizikai összeépítés](Images/V1.0_Prototype.png)
