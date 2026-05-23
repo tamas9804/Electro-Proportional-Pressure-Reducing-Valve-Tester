@@ -66,8 +66,8 @@ A nagy pontosságú mérésekért egy **ADS1115** 16-bites külső ADC modul fel
 
 ![ADC modul](Hardware/ADC_Schematic.PNG)
 
-### 4 Funkcióváltó Relé (Polarity Switch)
-Ez a relés áramkör teszi lehetővé, hogy szoftveresen váltsunk a mérési funkciók (pl. ellenállásmérés) és a teljesítmény kivezérlés között. Biztosítja a méréstechnikai áramkörök galvanikus leválasztását a kivezérlő MOSFET-ekről.
+### 4 Polaritás váltóz híd 
+Ez az áramkör tartalmazza a polaritás váltást az adott kimeneten, illetve kezeli hogy 12V illetve 24V-ről is tudjon működni.
 ![Funkcióváltó](Hardware/PolaritySwtich_Schematic.PNG)
 
 ### 5 Mérési Mód Választó Relé (AM / VD Switch)
@@ -75,7 +75,7 @@ Ez a modul választja ki, hogy az ADC éppen az analóg mérőjelet vagy a folyt
 ![Mérési mód választó](Hardware/AM_VD_Switch_Schematic.PNG)
 
 ### 6 Szelep Szekvencia Választó Relék (Sequence Switch)
-Mivel a hardver képes egyszerre több szelep fogadására, ez a relés mátrix felel azért, hogy a kiválasztott mérő- vagy vezérlőjel a megfelelő szelep csatlakozóra (Valve Input / Output) jusson el.
+Ez a rész kapcsolja a kimenetet, ezzel a kapcsolással egyszerre két szelep is rácsatlakoztatható és külön külön lemérhető.
 ![Szelep választó](Hardware/ValveSequenceSwitch_Schematic.PNG)
 
 ### 7 Szelep Csatlakozók és Állapotjelző LED-ek
