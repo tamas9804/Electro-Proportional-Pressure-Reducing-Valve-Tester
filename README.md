@@ -53,5 +53,10 @@ A teljes rajz letölthető [**PDF formátumban**](Hardware/EPPR_tester_full.pdf)
 
 ### 1. Tápellátás és Fordított Polaritás Elleni Védelem
 Ez a modul felel a rendszer stabil feszültségellátásáért. A 24V-os bemenetet egy biztosíték és egy dióda védi a fordított polaritás ellen. Egy **LM2596S** kapcsolóüzemű szabályzó állítja elő a logikai áramkörök számára szükséges stabil 5V-ot nagy hatásfokkal.
+
 ![Tápellátás](Hardware/PowerSupply_Schematic.PNG)
+
+### 2. Vezérlő interfészek és Felhasználói Felület csatlakozók
+Itt látható az **Arduino Nano** mikrokontroller központi bekötése. Ez a modul kezeli az I2C buszt az LCD kijelzőt és az ADC-t. Tartalmazza a JST XH csatlakozók bekötését a navigációs nyomógombokhoz, a potméterhez.
+![Vezérlő](Hardware/Contoller_Interfaces_Schematic.PNG)
 
