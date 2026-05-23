@@ -86,8 +86,12 @@ Ez a kimeneti modul tartalmazza a fizikai sorkapcsokat a szelepek bekötéséhez
 
 ![Szelep kimenetek](Hardware/ValveInputs_and_LedOutputs_Schematic.PNG)
 
+## Nyomtatott Áramkör 
 
-## 3D Modell 
+A hardver fizikai megvalósítása a KiCad szoftverben készült. A megbízható és zajmentes ipari működés érdekében a NYÁK-tervezés (routing) során az alábbi szigorú tervezési irányelveket követtük:
 
-[**Kattints ide a 3D modell interaktív megtekintéséhez!**](Hardware/EPPR_tester_model.stl) *(Megjegyzés: A linkre kattintva a GitHub automatikusan betölti a 3D nézegetőt).*
-
+* **4 rétegű felépítés (4-Layer Stackup):** A panel ipari szabványú **FR-4**-es hordozóanyagra készült, 4 rétegű kialakítással. Ez lehetővé tette a jelvezetékek és a tápvezetékek optimális szétválasztását.
+* **Dedikált Föld és Táp síkok (GND & Power Planes):** A kiváló zajvédelem érdekében a két belső réteg (Inner 1 és Inner 2) dedikált feladatot kapott. Az egyik egy megszakítás nélküli, masszív Föld-sík (GND), a másik pedig egy egybefüggő Táp-sík (VCC/24V). Ez minimalizálja a hurok-induktivitást és stabil referenciát biztosít a precíziós analóg mérésekhez.
+* **Áramra méretezett vezetősávok:** A teljesítményelektronikai részeknél (a H-híd MOSFET-jei, a relék és a szelepek kimeneti csatlakozói között) a vezetősávok szélessége (trace width) pontosan a maximális átfolyó áramra lett méretezve a melegedés és a feszültségesés elkerülése végett.
+* **Zajszűrés optimalizálása (Decoupling):** A tápszűrő kondenzátorok (bypass capacitors) fizikailag a lehető legközelebb kerültek az integrált áramkörök (Arduino Nano, ADS1115 ADC, LM317) táplábaihoz, így hatékonyan nyelik el a magas frekvenciás tranzienseket.
+* **Adatvonalak árnyékolása (Ground Guarding):** A kritikus kommunikációs vonalak (például az I2C busz SDA és SCL vonalai) a rézrétegen mindkét oldalról föld-sávokkal lettek körbevéve (coplanar shielding). Ez a technika drasztikusan csökkenti az áthallást (crosstalk) és megvédi az érzékeny digitális jeleket a relék vagy a PWM hajtás által keltett zavaroktól.
