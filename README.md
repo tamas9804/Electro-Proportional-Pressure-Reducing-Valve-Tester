@@ -79,6 +79,6 @@ Ez a rész kapcsolja a kimenetet, ezzel a kapcsolással egyszerre két szelep is
 ![Szelep választó](Hardware/ValveSequenceSwitch_Schematic.PNG)
 
 ### 7 Szelep Csatlakozók és Állapotjelző LED-ek
-Ez a kimeneti modul tartalmazza a fizikai sorkapcsokat a szelepek bekötéséhez. Tartalmazza a teljesítmény MOSFET-eket a szelepek meghajtásához, valamint az optikai visszajelzést biztosító LED-eket, amelyek mutatják az adott szelep kimenet állapotát.
+Ez a kimeneti modul tartalmazza a fizikai sorkapcsokat a szelepek bekötéséhez. Tartalmazza az optikai visszajelzést biztosító LED csatlakozását amelyek mutatják az adott szelep kimenet állapotát.
 ![Szelep kimenetek](Hardware/ValveInputs_and_LedOutputs_Schematic.PNG)
 
