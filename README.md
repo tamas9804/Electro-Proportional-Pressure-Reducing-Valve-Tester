@@ -143,14 +143,14 @@ A felhasználói beállítások (kiválasztott nyelv, szelepek száma) a nem fel
 Bár a műszer prototípusa teljesen működőképes és ellátja az alapvető mérési funkciókat, a jövőbeli verziókhoz az alábbi javítások lehetőségesek:
 
 ### Szoftveres javítások és optimalizálás (Known Issues & Fixes)
-**PWM Teszt implementálása:** A menürendszerben már szerepel, de a `PwmTest()` funkció logikája (a hardveres időzítők és a kitöltési tényező dinamikus állítása) még megírásra vár.
-**Blokkoló kódok kiváltása:** A tesztelési folyamatok végén jelenleg `delay(4000)` található. Ezt a jövőben `millis()` alapú, nem blokkoló időzítésre cseréljük, hogy a műszer közben reagálhasson a gombnyomásokra.
-**Kalibrációs menü:** Egy rejtett menüpont létrehozása, ahol az áramgenerátor és a feszültségosztó pontatlanságait szoftveresen (Offset és Gain értékekkel) lehet kalibrálni és az EEPROM-ba menteni.
+* **PWM Teszt implementálása:** A menürendszerben már szerepel, de a `PwmTest()` funkció logikája (a hardveres időzítők és a kitöltési tényező dinamikus állítása) még megírásra vár.
+* **Blokkoló kódok kiváltása:** A tesztelési folyamatok végén jelenleg `delay(4000)` található. Ezt a jövőben `millis()` alapú, nem blokkoló időzítésre cseréljük, hogy a műszer közben reagálhasson a gombnyomásokra.
+* **Kalibrációs menü:** Egy rejtett menüpont létrehozása, ahol az áramgenerátor és a feszültségosztó pontatlanságait szoftveresen (Offset és Gain értékekkel) lehet kalibrálni és az EEPROM-ba menteni.
 
 ### Hardveres és Rendszerszintű továbbfejlesztések
-**Induktív visszarúgás elleni védelem:** A jelenlegi V1.0-s nyomtatott áramkörről lemaradtak a szelepek (induktív terhelések) kikapcsolásakor keletkező feszültségtüskék elleni védődiódák. A működő prototípuson ezt ideiglenesen utólagos ráforrasztással oldottuk meg. A következő PCB terv frissítésnél ezek a Schottky védődiódák dedikált helyet és megfelelő hűtőfelületet kapnak a H-híd kimeneteinél, garantálva a MOSFET-ek hosszú távú védelmét.
-**Adatnaplózás (Data Logging):** Egy MicroSD kártya modul integrálása az I2C/SPI buszra, hogy a teszteredményeket .CSV formátumban el lehessen menteni a későbbi elemzéshez.
-**PC-s kommunikáció (Serial Plotter):** A tesztelés alatti áram- és feszültséggörbék (különösen a PWM kivezérlés esetén) folyamatos küldése USB-n keresztül egy PC-s szoftvernek, vizuális grafikonrajzolás céljából.
+* **Induktív visszarúgás elleni védelem:** A jelenlegi V1.0-s nyomtatott áramkörről lemaradtak a szelepek (induktív terhelések) kikapcsolásakor keletkező feszültségtüskék elleni védődiódák. A működő prototípuson ezt ideiglenesen utólagos ráforrasztással oldottuk meg. A következő PCB terv frissítésnél ezek a Schottky védődiódák dedikált helyet és megfelelő hűtőfelületet kapnak a H-híd kimeneteinél, garantálva a MOSFET-ek hosszú távú védelmét.
+* **Adatnaplózás (Data Logging):** Egy MicroSD kártya modul integrálása az I2C/SPI buszra, hogy a teszteredményeket .CSV formátumban el lehessen menteni a későbbi elemzéshez.
+* **PC-s kommunikáció (Serial Plotter):** A tesztelés alatti áram- és feszültséggörbék (különösen a PWM kivezérlés esetén) folyamatos küldése USB-n keresztül egy PC-s szoftvernek, vizuális grafikonrajzolás céljából.
 
 ### Karbantartás és Fizikai javítás 
 A hardver úgy lett megtervezve, hogy a terepi javítás a lehető legegyszerűbb legyen:
