@@ -117,18 +117,18 @@ A beágyazott szoftver **C++ nyelven**, az Arduino keretrendszerre támaszkodva 
 
 A fejlesztés során az alábbi kulcsfontosságú programozási technikákat alkalmaztuk:
 
-### 1. Véges Állapotgép (Finite State Machine - FSM)
-A szoftver működése egy robusztus, többszintű állapotgépre épül. Az állapotokat (Főmenü, Beállítások, Tesztelési folyamatok) szigorúan tipizált `enum class` struktúrák vezérlik (`SystemMode`, `MenuStates`, `SettingStates`).
-* **Előny:** Ez a megközelítés teljesen kiküszöböli a "spagetti kódot", és a `loop()` függvényt átláthatóvá, könnyen bővíthetővé teszi, elkerülve a blokkoló várakozásokat.
+### 1. Véges Állapotgép 
+A szoftver működése egy robusztus, többszintű állapotgépre épül. Az állapotokat (Főmenü, Beállítások, Tesztelési folyamatok) `enum class` struktúrák vezérlik (`SystemMode`, `MenuStates`, `SettingStates`).
+* **Előny:** Ez a megközelítés teljesen kiküszöböli az átláthatatlan kódot, és a `loop()` függvényt könnyen bővíthetővé teszi, elkerülve a blokkoló várakozásokat.
 
-### 2. Memóriaoptimalizálás (PROGMEM) és Többnyelvűség
+### 2. Memóriaoptimalizálás és Többnyelvűség
 A műszer három nyelvet támogat (Magyar, Angol, Német). Mivel a kijelzőn megjelenő stringek gyorsan kimerítenék az Arduino Nano (ATmega328P) mindössze 2 kByte-os SRAM memóriáját, az összes szöveges konstans a **Flash memóriában (`PROGMEM`)** kapott helyet.
 * **Megvalósítás:** Egy dedikált lekérdező függvény (`getText()`) olvassa ki a kért nyelvi elemeket futásidőben a Flash memóriából egy rövid bufferbe, drasztikusan csökkentve a futásidejű memóriafoglalást.
 
-#### 3. Szoftveres Zajszűrés és Dinamikus Felbontás (ADC PGA)
-A 0,1%-os pontosságú mérés érdekében a hardveres szűrés mellett speciális szoftveres eljárásokat is bevezettünk:
-* **Túlmintavételezés (Oversampling & Averaging):** Az analóg értékek beolvasásakor a kód ciklusonként 100 mintát vesz, és ezek átlagolásával (`getAveragedVoltage()`) szűri ki a hálózati és kapcsolási zajokat.
-* **Dinamikus Erősítés (Auto-Ranging):** Az ellenállásmérés (`OhmTest`) során a szoftver az ADS1115-ös IC beépített programozható erősítőjét (PGA) dinamikusan állítja (`GAIN_EIGHT`, `GAIN_FOUR`, stb.). Ha a mért feszültség túl alacsony, a rendszer automatikusan nagyobb erősítésre kapcsol, így mindig kihasználja a 16-bites felbontás maximumát a különböző ellenállás-tartományokban.
+#### 3. Szoftveres Zajszűrés és Dinamikus Felbontás
+A 0,1%-os pontosságú mérés érdekében a hardveres szűrés mellett speciális szoftveres eljárásokat is bevezettem:
+* **Túlmintavételezés:** Az analóg értékek beolvasásakor a kód ciklusonként 100 mintát vesz, és ezek átlagolásával (`getAveragedVoltage()`) szűri ki a hálózati és kapcsolási zajokat.
+* **Dinamikus Erősítés:** Az ellenállásmérés (`OhmTest`) során a szoftver az ADS1115-ös IC beépített programozható erősítőjét (PGA) dinamikusan állítja (`GAIN_EIGHT`, `GAIN_FOUR`, stb.). Ha a mért feszültség túl alacsony, a rendszer automatikusan nagyobb erősítésre kapcsol, így mindig kihasználja a 16-bites felbontás maximumát a különböző ellenállás-tartományokban.
 
 #### 4. EEPROM Kezelés és "First Start" Detektálás
 A felhasználói beállítások (kiválasztott nyelv, szelepek száma) a nem felejtő **EEPROM** memóriában tárolódnak.
