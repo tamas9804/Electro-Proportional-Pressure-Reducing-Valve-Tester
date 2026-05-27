@@ -61,7 +61,7 @@ Itt látható az **Arduino Nano** mikrokontroller központi bekötése. Ez a mod
 
 ![Vezérlő](Hardware/Contoller_Interfaces_Schematic.PNG)
 
-#### 3. Precíziós Analóg-Digitális Átalakítás (ADC)
+#### 3. Precíziós Analóg-Digitális Átalakítás 
 A nagy pontosságú mérésekért egy **ADS1115** 16-bites külső ADC modul felel. I2C buszon kommunikál a vezérlővel.
 
 ![ADC modul](Hardware/ADC_Schematic.PNG)
@@ -71,12 +71,12 @@ Ez az áramkör tartalmazza a polaritás váltást az adott kimeneten, illetve k
 
 ![Funkcióváltó](Hardware/PolaritySwtich_Schematic.PNG)
 
-### 5 Mérési Mód Választó Relé (AM / VD Switch)
+### 5 Mérési Mód Választó Relé 
 Ez a modul választja ki, hogy az ADC éppen az analóg mérőjelet vagy a folytonossági teszthez szükséges feszültségosztót olvassa be.
 
 ![Mérési mód választó](Hardware/AM_VD_Switch_Schematic.PNG)
 
-### 6 Szelep Szekvencia Választó Relék (Sequence Switch)
+### 6 Szelep Szekvencia Választó Relék
 Ez a rész kapcsolja a kimenetet, ezzel a kapcsolással egyszerre két szelep is rácsatlakoztatható és külön külön lemérhető.
 
 ![Szelep választó](Hardware/ValveSequenceSwitch_Schematic.PNG)
